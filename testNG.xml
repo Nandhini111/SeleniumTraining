@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sample test suite" >
+<test name="Login Test">
+<classes>
+<class name="mavenSeleniumProject.robotExample"/>
+</classes>
+</test>
+<test name="Login Test">
+<classes>
+<class name="mavenSeleniumProject.Recorder"/>
+</classes>
+</test>
+</suite> -->
+
+<!-- <suite name="Parallel test suite" parallel="tests">
+<test name="Firefox Test">
+<parameter name="browser" value="Firefox"/>
+<classes>
+<class name="mavenSeleniumProject.Recorder"/>
+</classes>
+</test>
+<test name="Chrome Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="mavenSeleniumProject.Recorder"/>
+</classes>
+</test>
+</suite> 
+ -->
+ <suite name="SampleSuite2" verbose="1" >
+<test name="SampleTest" >
+<parameter name="browser" value="Firefox"/>
+<classes>
+<class name="mavenSeleniumProject.Recorder" />
+</classes>
+</test>
+<test name="Sample2Test" >
+<parameter name="browser" value="Chrome"/>
+<classes>
+<class name="mavenSeleniumProject.Recorder" />
+</classes>
+</test>
+</suite>
+
+
