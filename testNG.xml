@@ -31,13 +31,13 @@
 <test name="SampleTest" >
 <parameter name="browser" value="Firefox"/>
 <classes>
-<class name="mavenSeleniumProject.Recorder" />
+<class name="mavenSeleniumProject.Alerts" />
 </classes>
 </test>
 <test name="Sample2Test" >
 <parameter name="browser" value="Chrome"/>
 <classes>
-<class name="mavenSeleniumProject.Recorder" />
+<class name="mavenSeleniumProject.Alerts" />
 </classes>
 </test>
 </suite>
